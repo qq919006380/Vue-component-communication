@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>组件a</h1>
+    <h3>组件a</h3>
     <slot></slot>
   </div>
 </template>

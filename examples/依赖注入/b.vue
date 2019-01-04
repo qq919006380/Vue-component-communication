@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>子组件:b</h1>
+      <h3>子组件:b</h3>
     <div>{{getMap}}</div>   
   </div>
 </template>
