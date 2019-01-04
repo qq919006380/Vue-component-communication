@@ -17,5 +17,7 @@ export default {
     inject: ["getMap"]
 }
 ```
-
+## eventBus
+- bus定义到全局
+- 然后在组件中，可以使用 $emit, $on, $off 分别来分发、监听、取消监听事件
 
