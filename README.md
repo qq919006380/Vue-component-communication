@@ -18,6 +18,18 @@ export default {
 }
 ```
 ## eventBus
-- bus定义到全局
+- bus定义到全局(在vue中，bus本身就是vue对象本身)
 - 然后在组件中，可以使用 $emit, $on, $off 分别来分发、监听、取消监听事件
+#### 创建事件总线
+```
+// bus.js 
+import Vue from 'vue' 
+export const EventBus = new Vue()
+```
+#### 创建全局事件总线
+```
+// app.js
+Vue.prototype.$EventBus = new Vue()
+```
+###
 
