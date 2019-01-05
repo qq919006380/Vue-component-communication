@@ -1,13 +1,19 @@
 <template>
-  <div></div>
+  <div>
+    <div>订阅的消息:{{params}}</div>
+  </div>
 </template>
 
 <script>
 export default {
+  data(){
+    return {
+      params:'...'
+    }
+  },
   created() {
     this.$bus.$on("todoSth", params => {
-      //获取传递的参数并进行操作
-      console.log(params);
+      this.params=params
     });
   }
 };
