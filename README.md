@@ -31,7 +31,7 @@ export const EventBus = new Vue()
 // app.js
 Vue.prototype.$EventBus = new Vue()
 ```
-#### 组件中创建事件总线（主要用于tabs组件）
+#### 独立组件中创建事件总线
 ```
 import Vue from 'vue'
   export default {
