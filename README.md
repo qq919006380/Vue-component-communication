@@ -26,12 +26,12 @@ export default {
 import Vue from 'vue' 
 export const EventBus = new Vue()
 ```
-#### 创建全局事件总线
+##### 创建全局事件总线
 ```
 // app.js
 Vue.prototype.$EventBus = new Vue()
 ```
-#### 独立组件中创建事件总线
+##### 独立组件中创建事件总线
 ```
 import Vue from 'vue'
   export default {
