@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      params:'...'
-    }
+      params: "..."
+    };
   },
   created() {
     this.$bus.$on("todoSth", params => {
-      this.params=params
+      this.params = params;
     });
   }
 };
