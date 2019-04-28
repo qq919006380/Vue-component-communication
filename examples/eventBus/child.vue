@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>订阅的消息:{{params}}</div>
+    <slot></slot>
   </div>
 </template>
 
