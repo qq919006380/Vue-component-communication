@@ -107,7 +107,7 @@ child1.vue
 }
 ```
 
-parent.vue 
+parent.vue  
 
 ```
 <div>
